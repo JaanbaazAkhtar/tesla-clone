@@ -18,8 +18,9 @@ const HomeSection = ({title, description,  leftBtnText, rightBtnText, background
                         }
                         
                     </ButtonGroup>
-
-                    <DownArrow src="/images/down-arrow.svg"/>
+                        <div style={{display:'flex', justifyContent:'center'}}>
+                            <DownArrow src="/images/down-arrow.svg"/>
+                        </div>
                 </Buttons>
             </Wrap>
             
